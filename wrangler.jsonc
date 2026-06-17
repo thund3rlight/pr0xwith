@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pr0xwith",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-04",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "proxy_dashboard",
+      "database_id": "4f8ab63f-bc45-4352-9a67-9094f34ad62a",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
